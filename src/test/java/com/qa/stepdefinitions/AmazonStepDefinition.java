@@ -2,6 +2,7 @@ package com.qa.stepdefinitions;
 
 import java.util.List;
 
+import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -15,7 +16,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.github.bonigarcia.wdm.WebDriverManager;
-import junit.framework.Assert;
+
 
 public class AmazonStepDefinition {
 
@@ -115,7 +116,7 @@ public class AmazonStepDefinition {
 
 	@Then("the user should be navigated to registration page")
 	public void the_user_should_be_navigated_to_registration_page() {
-		boolean contains = driver.getTitle().contains("Registration");
+		boolean contains = driver.getTitle().contentEquals("Registration");
 		if(contains) {
 			System.out.println("User is landed on registration page");
 			Assert.assertTrue(contains);

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="39022" started-at="2022-04-30T21:18:44 IST" finished-at="2022-04-30T21:19:23 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.testrunner.AmazonTestRunner@782663d3]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="39022" started-at="2022-04-30T21:18:44 IST" finished-at="2022-04-30T21:19:23 IST">
+      <class name="com.qa.testrunner.AmazonTestRunner">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.qa.testrunner.AmazonTestRunner@782663d3]" name="setUpClass" is-config="true" duration-ms="632" started-at="2022-04-30T21:18:44 IST" finished-at="2022-04-30T21:18:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5143c662]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.testrunner.AmazonTestRunner@782663d3]" name="runScenario" duration-ms="34579" started-at="2022-04-30T21:18:45 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-30T21:19:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validate search an item feature in amazon web application"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate the amazon application]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.testrunner.AmazonTestRunner@782663d3]" name="runScenario" duration-ms="34077" started-at="2022-04-30T21:18:45 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-30T21:19:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validate search an item feature in amazon web application"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate the amazon application]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.testrunner.AmazonTestRunner@782663d3]" name="runScenario" duration-ms="34217" started-at="2022-04-30T21:18:45 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-30T21:19:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validate new user registration in amazon web application"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate the amazon application]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.testrunner.AmazonTestRunner@782663d3]" name="runScenario" duration-ms="36436" started-at="2022-04-30T21:18:45 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-30T21:19:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validate search an item feature in amazon web application"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate the amazon application]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.testrunner.AmazonTestRunner@782663d3]" name="runScenario" duration-ms="36035" started-at="2022-04-30T21:18:45 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-30T21:19:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validate the footer links present on the amazon home page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate the amazon application]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.qa.testrunner.AmazonTestRunner@782663d3]" name="tearDownClass" is-config="true" duration-ms="1910" started-at="2022-04-30T21:19:21 IST" finished-at="2022-04-30T21:19:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.qa.testrunner.AmazonTestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
